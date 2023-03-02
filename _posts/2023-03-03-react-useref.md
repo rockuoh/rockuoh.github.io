@@ -20,7 +20,7 @@ const someRef = React.useRef();
 
 useRef를 활용해서 기존 JS에서 특정 dom(또는 element)를 선택해서 조작하듯이 활용할 수 있음.
 그렇다면 useRef는 왜 쓰는 걸까?
-    - useState, useEffect와 같은 맥랙으로 react에서의 virtual dom, re-render 등을 활용하기 위해서 씀
+  - useState, useEffect와 같은 맥랙으로 react에서의 virtual dom, re-render 등을 활용하기 위해서 씀
 
 ## [활용예시]
 ```react
@@ -39,7 +39,7 @@ const App = () => {
       <input ref={inputRef} />
       <div
         ref={divRef}
-        style={{ height: 100, width: 200, backgroundColor: "black" }}
+        style={ { height: 100, width: 200, backgroundColor: "black" } }
       />
     </>
   );
